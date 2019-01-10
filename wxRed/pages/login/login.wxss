@@ -1,0 +1,153 @@
+/* pages/login/login.wxss */
+.container{
+  width: 100%; margin: 0 auto;
+  /* background: #f00; */
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section{
+  width: 100%; height: 159rpx;
+}
+.section1{
+   width: 100%; height: 324rpx;
+}
+.times{
+  height: 310rpx; width: 100%; margin-bottom: 30rpx;
+}
+.backs{
+  width: 95%; height: 300rpx; border-radius: 20rpx; margin: 0 auto; box-shadow: 2rpx 8rpx 12rpx #d0d0d0;
+  -webkit-box-shadow: 2rpx 8rpx 12rpx #d0d0d0; -moz-box-shadow: 2rpx 8rpx 12rpx #d0d0d0;
+  -ms-box-shadow: 2rpx 8rpx 12rpx #d0d0d0;
+  background: #fff6ed; overflow: hidden;
+}
+.backsTop{
+   height: 70rpx;  
+}
+.backText{
+   font-size:15px; width: 150rpx;height: 40rpx; background: #ff4747; color:#fff; margin: 16rpx 0 0 25rpx; display: inline-block;
+   text-align: center; border-radius: 10rpx; line-height: 40rpx; 
+}
+.backsDow{
+   height:230rpx; background: #ff4747; color:#fff;
+}
+.backsDowUp{
+   height: 155rpx; border-bottom: 2rpx solid #fff;
+}
+.backsLeft{
+   padding: 0 3.5%; line-height: 155rpx; display: inline-block; font-size: 42rpx; 
+}
+.backTime{
+    width: 230rpx; height: 50rpx;  display: inline-table;  margin:50rpx 35rpx;color: #ff4747; text-align: center;
+   line-height: 50rpx; float: right;
+}
+.backsT{
+   width: 63rpx; height: 50rpx; background: #ffffff; border-radius: 10rpx; float: left;
+}
+.backsM{
+   width: 63rpx; height: 50rpx; background: #ffffff; border-radius: 10rpx; float: left;
+}
+.backsS{
+   width: 63rpx; height: 50rpx; background: #ffffff; border-radius: 10rpx; float: left;
+}
+.backsY{
+   float: left; line-height: 45rpx; margin: 0 6rpx;color: #fff;
+}
+.backsT0{
+  font-size:12px; margin: 20rpx 3.5%; display: inline-block;
+}
+.backsBtn{
+  height: 48rpx; background: #fff; float: right; margin: 15rpx 35rpx 0 0; border-radius: 10rpx; padding: 0 20rpx;
+  color:#ff4747; font-size: 16px; line-height: 48rpx; text-align: center; box-shadow: 0px 1px 3px #b72424;
+  -webkit-box-shadow: 0px 4px 6px #b72424; -moz-box-shadow: 0px 4px 6px #b72424; -ms-box-shadow: 0px 4px 6px #b72424;
+}
+.contMont{
+  background: #f7f8fa; width: 100%;
+}
+.contHead{
+   background: #fff; margin-top:20rpx; height: 20rpx; width: 100%; font-size:30rpx; color:#ff0303; text-align: center;
+   line-height: 70rpx;
+}
+.contDow{
+  height: 1020rpx; width: 100%;
+}
+.contDimg{
+  width: 100%; height: 100%;
+}
+.guiz{
+  width: 100%;  background: #fff;margin-bottom: 40rpx;
+}
+.guizT{
+  font-size: 30rpx; color:#929292; padding: 30rpx 49rpx 20rpx 49rpx;  
+}
+.guizText{
+  font-size:26rpx; color:#929292; padding-left: 49rpx;  padding-right: 49rpx; line-height: 40rpx;
+}
+.shade{
+   width: 100%; height: 100%; position: fixed; top:0; left: 0; background: rgba(0, 0, 0, 0.5)
+}
+.modal-view{
+   width: 70%; height: 600rpx; background: #ffffff; position: absolute; top:50%; left:50%; transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%);
+   border-radius: 20rpx; 
+}
+.modal_img{
+  width: 100%; height: 100%;
+}
+.modal_dels{
+  width:45rpx; height: 45rpx;  position: absolute; top:-20rpx; right: 0;
+}
+.modal_text{
+   text-align: center; color:#fff; position: absolute; top:50rpx;left: 0; width: 100%; display: block; line-height: 80rpx;
+   font-size: 50rpx;
+}
+.modal_input_1{
+  width: 350rpx; height: 48rpx; position: absolute; top:160rpx; left: 80rpx; font-size:25rpx; overflow: hidden
+}
+.modal_input_text{
+   color: #fff;  line-height: 48rpx; width: 80%; height: 48rpx;  padding-left: 15rpx;  border: none;
+}
+.cancles{
+  width: 44rpx; height: 44rpx; position: absolute; right: 0rpx; top:6rpx; 
+}
+.modal_input_2{
+  width: 262rpx; height: 48rpx; position: absolute; top:236rpx; left: 80rpx; font-size:25rpx; overflow: hidden；
+}
+.modal_input_3{
+  width: 240rpx; height: 48rpx; position: absolute; top:313rpx; left: 80rpx; font-size:25rpx; overflow: hidden；
+}
+.madal_tbn{
+  width: 300rpx; height: 64rpx; position: absolute; bottom:62rpx; left: 50%; font-size:35rpx; text-align: center;
+  color:#fff; line-height: 64rpx; transform: translateX(-50%); -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%); -ms-transform: translateX(-50%);
+}
+.yanz{
+  position: absolute; top:324rpx;  right: 55rpx; font-size: 25rpx; color:#fff;
+}
+.loginHead{
+  height: 885rpx; width: 100%;position: relative;
+}
+.loginsImg{
+  width: 100%; height: 100%; 
+}
+.contMont{
+   background: #fff;
+}
+.logins_input_1{
+  position: absolute; top: 502rpx; left:40rpx; width: 80%; height: 75rpx;
+}
+.logins_input_text{
+    color: #cba1f2;  line-height: 75rpx; width: 100%; height: 75rpx;  padding-left: 15rpx;  border: none;
+    font-size: 30rpx;
+}
+.logins_input_2{
+  position: absolute; top: 612rpx; left:40rpx; width: 55%; height: 75rpx;  font-size: 30rpx;
+}
+.getCode{
+   position: absolute; top:616rpx;  right: 60rpx; font-size: 30rpx; color:#fff;height: 65rpx;
+   width: 200rpx; text-align: center; line-height: 65rpx;
+}
+.logins_tbn{
+     position: absolute; bottom:56rpx;  right: 7%; width:86%; background: #ff4747;
+     height: 88rpx; line-height: 88rpx; text-align: center; color: #fff; font-size:35rpx;
+}
+

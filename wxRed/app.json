@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/load/load",
+    "pages/home/home",
+    "pages/share/share",
+    "pages/suree/suree",
+    "pages/login/login",
+    "pages/lists/lists"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "每日一股",
+    "navigationBarTextStyle":"black"
+  }
+}

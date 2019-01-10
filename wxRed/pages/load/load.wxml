@@ -1,0 +1,117 @@
+<import src="../../template/times/times.wxml" />
+<view class="containers">
+    <view class='conHead_top'>
+        <view class='conIMG'>
+            <image src='../../image/touxinag.png'></image>
+        </view>
+        <view class='conTT'>登录看牛股</view>
+        <button  open-type="getUserInfo" bindgetuserinfo='getInfo' hover-class="button-hover:none" class='conget' >去登录</button>
+    </view>
+    <!-- <view class='conHead_top' wx:if="{{is_bind == 1}}">
+        <view class='conIMG'>
+            <image src='{{head_img}}'></image>
+        </view>
+        <view class='conTTs'>
+           <text>{{nick_name}}</text>
+           <text>{{tel}}</text>
+        </view>
+        <view class='shengyu'>
+           <view class='shenVIP'>
+              <image src="../../image/vip.png"></image>
+           </view>
+           <view>剩余：{{vip_life}}天</view>
+        </view>
+    </view> -->
+    <view class="section1">
+        <image style="width: 95%; height: 100%; margin-left:2.5%;margin-right:2.5%;" src="../../image/topImg1.png"></image>
+    </view>
+    <!-- 倒计时模板 -->
+    <!-- <template is="msgItem" data="{{showTitle,title,sname,ssymbol,reason,hours,minutes,seconds,is_bind,stock_msg}}" ></template> -->
+    <view class="log-list">
+        <view class="times">
+          <view class="backs">
+              <view class="backsTop">
+                <text class="backText">今日牛股</text>
+                <text class='backTSD'>VIP 14:00提前查看牛股</text>
+              </view>
+              <view class="backsDow">
+                  <view class='backsDowUp'>
+                    <!-- <view class='backsLeft' wx:if="{{showTitle == true}}">{{title}}</view> -->
+                    <view style="float:left">
+                      <view class='backsLeft2'>{{sname}}暂未发布，敬请期待</view>
+                      <view class='backsLeft3'></view>
+                    </view>
+                    <!-- <view wx:if="{{showTitle == false}}" style="float:left">
+                      <view class='backsLeft2'>{{sname}}</view>
+                      <view class='backsLeft3'>{{ssymbol}}</view>
+                    </view> -->
+                    <view class='backTime'>
+                        <view class='backsT'>00</view><view class="backsY">:</view>
+                        <view class='backsM'>00</view><view class="backsY">:</view>
+                        <view class='backsS'>00</view>
+                    </view>
+                    <view class='backMss'>牛股倒计时</view>
+                  </view>
+                  <view class='backsDowOf'>
+                      <view class='backsT0'>推荐理由：</view>
+                      <view class='backTexts'>暂未发布，敬请期待</view>
+                  </view>
+              </view>
+          </view>
+        </view>
+    </view>
+    <view class='fengexian'></view>
+    <view class='contMont'>
+       <view class='contNav'>
+          <view class='contTitle'>往期回顾</view>
+          <view class='contNavIcon' bindtap='goNext' >
+              更多>>
+          </view>
+       </view>
+       <view class='contMess'>
+          <image class='conIcon' src="../../image/icon02.png"></image>
+          <text class='contText2'>{{news}}截止目前，推荐成功率87.7%上涨次数50次</text>
+       </view>
+
+       <!-- <view class='contList'>
+          <view class='contLi' wx:for="{{list}}" wx:key="index">
+              <image class='contLeft' src='../../image/icon03.png'></image>
+              <view class='contKuai'>
+                  <image class='contRimg' src="../../image/kuai.png"></image>
+                  <view class='contTextLeft'>
+                      <text class='contDay'>{{item.day}}</text>
+                      <text class='contMath'>{{item.mon}}</text>
+                  </view>
+                  <view class='contAct'></view>
+                  <view class='contCon'>
+                      <text class='contFont' style="{{item.symbol==''?'height:80rpx;line-height:80rpx;':''}}">{{item.sname}}</text>
+                      <text class='contFont2' style="{{item.symbol==''?'display:none':''}}">{{item.symbol}}</text>
+                  </view>
+                  <view class='contBar'>
+                      <text class='contBarText' wx-if="{{item.symbol==''}}" style="color:#999">--</text>
+                      <text class='conBarIcon' wx-if="{{item.symbol==''}}" style="color:#999"></text>
+                      <text class='contBarText' wx-if="{{item.symbol!='' && item.rate!='0.00' }}" style="{{item.rate>0?'':'color:#06cb06'}}">{{item.rate}}</text>
+                      <text class='conBarIcon'wx-if="{{item.symbol!=''&& item.rate!='0.00'}}" style="{{item.rate>0?'':'color:#06cb06'}}">%</text>
+                      <text class='contBarText' wx-if="{{item.symbol!='' && item.rate=='0.00'}}" style="color:#999">{{item.rate}}</text>
+                      <text class='conBarIcon'wx-if="{{item.symbol!='' && item.rate=='0.00'}}" style="color:#999">%</text>
+                  </view>
+              </view>
+          </view>
+       </view> -->
+       <view class='foots'>
+          <view class='contHead'>
+            所有股票均由每日一股胜率85%以上专家推荐
+          </view>
+          <view class='footT'>过往收益不代表未来收益</view>
+          <view class='footT '>股市有风险 投资需谨慎</view>
+      </view>
+       <view style="height:100rpx; background:#fff; width:100%;"></view>
+    </view>
+    <view class='btns'  wx:if="{{showFen}}" >
+        <view class="btnsL">VIP特权剩余：{{vip_life}}天</view>
+        <view class="btnsR" bindtap='goFen'>
+          <image class='fenx' src="../../image/fenx.png"></image>
+          <text class='fenTs'>转发分享赢取3天VIP特权</text>
+        </view>
+    </view>
+</view>

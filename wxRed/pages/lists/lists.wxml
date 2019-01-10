@@ -1,0 +1,29 @@
+<!--pages/lists/lists.wxml-->
+<view class='contSorll'>
+  <view class='contList'>
+      <view class='contLi' wx:for="{{array}}" wx:key="index">
+          <image class='contLeft' src='../../image/icon03.png'></image>
+          <view class='contKuai'>
+              <image class='contRimg' src="../../image/kuai.png"></image>
+              <view class='contTextLeft'>
+                  <text class='contDay'>{{item.day}}</text>
+                  <text class='contMath'>{{item.mon}}</text>
+              </view>
+              <view class='contAct'></view>
+              <view class='contCon'>
+                  <text class='contFont' style="{{item.symbol==''?'height:80rpx;line-height:80rpx;':''}}">{{item.sname}}</text>
+                      <text class='contFont2' style="{{item.symbol==''?'display:none':''}}">{{item.symbol}}</text>
+              </view>
+              <view class='contBar'>
+                 <text class='contBarText' wx-if="{{item.symbol==''}}" style="color:#999">--</text>
+                      <text class='conBarIcon' wx-if="{{item.symbol==''}}" style="color:#999"></text>
+                      <text class='contBarText' wx-if="{{item.symbol!='' && item.rate!='0.00' }}" style="{{item.rate>0?'':'color:#06cb06'}}">{{item.rate}}</text>
+                      <text class='conBarIcon'wx-if="{{item.symbol!=''&& item.rate!='0.00'}}" style="{{item.rate>0?'':'color:#06cb06'}}">%</text>
+                      <text class='contBarText' wx-if="{{item.symbol!='' && item.rate=='0.00'}}" style="color:#999">{{item.rate}}</text>
+                      <text class='conBarIcon'wx-if="{{item.symbol!='' && item.rate=='0.00'}}" style="color:#999">%</text>
+              </view>
+          </view>
+      </view>
+      <view class='messd' wx:if="{{noMess}}">没有数据了~</view>
+  </view>
+</view>

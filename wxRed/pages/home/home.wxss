@@ -1,0 +1,232 @@
+/* pages/home/home.wxss */
+.containers{
+  width: 100%; margin: 0 auto;
+  /* background: #f00; */
+  padding: 0;
+  position: relative;
+}
+.section{
+  width: 100%; height: 159rpx;
+}
+.section1{
+   width: 100%; height: 380rpx;margin-bottom: 40rpx;margin-top: 25rpx;
+}
+.times{
+   width: 100%; margin-bottom: 30rpx;
+}
+.backs{
+  width: 95%;  border-radius: 20rpx; margin: 0 auto; box-shadow: 1px 4px 6px #d0d0d0;
+  -webkit-box-shadow: 1px 4px 6px #d0d0d0; -moz-box-shadow: 1px 4px 6px #d0d0d0;
+  -ms-box-shadow: 1px 4px 6px #d0d0d0;
+  background: #fff6ed; overflow: hidden;
+}
+.backsTop{
+   height: 70rpx;  
+}
+.backText{
+   font-size:15px; width: 150rpx;height: 40rpx; background: #ff4747; color:#fff; margin: 16rpx 0 0 25rpx; display: inline-block;
+   text-align: center; border-radius: 10rpx; line-height: 40rpx; 
+}
+.backsDow{
+   background: #ff4747; color:#fff;
+}
+.backsDowUp{
+   height: 195rpx; border-bottom: 1px solid #fff;
+}
+.backsLeft{
+   padding: 0 3.5%;  font-size: 42rpx;   line-height: 155rpx; display: inline-block;
+}
+.backsLeft2{
+   padding: 40rpx 0 0 35rpx;  font-size: 42rpx;  line-height: 65rpx;  height: 65rpx; width: 380rpx;
+}
+.backsLeft3{
+   padding: 0rpx 0 0 35rpx;  font-size: 42rpx;  line-height: 55rpx; height: 65rpx; width: 380rpx;
+}
+.backTime{
+    width: 230rpx; height: 50rpx;  display: inline-table;  margin:40rpx 35rpx 0 0rpx;color: #ff4747; text-align: center;
+   line-height: 50rpx; float: right;
+}
+.backsT{
+   width: 63rpx; height: 50rpx; background: #ffffff; border-radius: 10rpx; float: left;
+}
+.backsM{
+   width: 63rpx; height: 50rpx; background: #ffffff; border-radius: 10rpx; float: left;
+}
+.backsS{
+   width: 63rpx; height: 50rpx; background: #ffffff; border-radius: 10rpx; float: left;
+}
+.backsY{
+   float: left; line-height: 45rpx; margin: 0 6rpx;color: #fff;
+}
+.backsDowOf{
+   width: 100%; display: inline-block
+}
+.backsT0{
+  font-size:24rpx; margin: 20rpx 0 20rpx 35rpx; float: left; height: 40rpx; line-height: 40rpx; text-align: left;
+}
+.backTexts{
+   width: 70%; display: inline-block; text-align: left; font-size:24rpx; line-height: 40rpx; margin-top: 20rpx;
+   margin-bottom: 30rpx; word-break: break-all;word-wrap: break-word;
+}
+.backsBtn{
+  height: 48rpx; background: #fff; float: right; margin: 15rpx 10rpx 0 0; border-radius: 10rpx; padding: 0 10rpx;
+  color:#ff4747; font-size: 28rpx; line-height: 48rpx; text-align: center; box-shadow: 0rpx 2rpx 6rpx #b72424;
+  -webkit-box-shadow: 0rpx 8rpx 12rpx #b72424; -moz-box-shadow: 0rpx 8rpx 12rpx #b72424; -ms-box-shadow: 0rpx 8rpx 12rpx #b72424;
+}
+.log-list{
+  width: 100%; margin: 0 auto; padding: 0;
+}
+.fengexian{
+  width: 100%; height: 40rpx; background: #f7f8fa; margin-top: 40rpx;
+}
+.contMont{
+  background: #f7f8fa; width: 100%; 
+   /* position: absolute; top:891rpx;  */
+}
+.contHead{
+   background: #fff; padding-top:20rpx; height: 70rpx; width: 100%; font-size:30rpx; color:#ff0303; text-align: center;
+   line-height: 70rpx;
+}
+.contNav{
+   height: 80rpx; width: 100%; background: #fff; position: relative;
+}
+.contNavIcon{
+    height: 40rpx;   position: absolute; top:20rpx; right:35rpx; font-size: 28rpx; color:#999999;
+    line-height: 40rpx; background: #fff;
+}
+.conBTNS{
+  height: 40rpx; line-height: 40rpx;  font-size: 28rpx; text-align: center; position: absolute; top:20rpx; right:0rpx;
+  color:#999999;background: #fff;
+}
+
+.contTitle{
+   text-align: left; height: 100%; margin: 0 35rpx; line-height: 80rpx;
+}
+.contMess{
+  width: 100%; height: 70rpx; background:#fff6ed; color: #ffae5d; font-size: 30rpx; 
+}
+.conIcon{
+  width: 32rpx; height: 26rpx; margin-left: 45rpx; margin-right: 10rpx;  margin-top:15rpx; 
+}
+.contText2{
+     line-height: 70rpx; width: 80%; height: 70rpx;
+}
+.contSorll{
+  position: relative;  width: 100%; height: 800rpx; overflow: hidden; overflow-y: auto;
+}
+.contList{
+  padding: 0  5% 0 10% ; width: 85%;
+}
+.contLi{
+   height: 184rpx;  position: relative; display: inline-block; width: 100%;
+}
+.contLeft{
+   width: 12rpx; height: 106rpx; position: absolute; top:0; left: 0;
+}
+.contKuai{
+  width: 95%; height: 120rpx; margin-top:40rpx; margin-left: 36rpx; position: relative;
+}
+.contRimg{
+  width: 100%; height: 100%;
+}
+.contTextLeft{
+  width: 64rpx; height: 120rpx; position: absolute; top:0; left:40rpx; color:#999999;
+}
+.contDay{
+  width: 100%; text-align: center; padding-top:25rpx; display: inline-block; font-size: 35rpx;
+}
+
+.contMath{
+  width: 100%; text-align: center;  display: inline-block; font-size: 26rpx;
+}
+.contAct{
+  width: 2rpx; height: 80rpx; position: absolute; top:20rpx; left:124rpx; background: #e6e6e6;
+}
+.contCon{
+   color:#333;  height: 80rpx; position: absolute; top:20rpx; left:150rpx; width: 50%;
+}
+.contFont{
+  font-size:30rpx; display: inline-block; width: 100%; line-height: 40rpx;
+}
+.contFont2{
+  font-size:26rpx;display: inline-block;width: 100%;line-height: 40rpx;
+}
+.contBar{
+  width: 170rpx; height: 80rpx; position: absolute; top:20rpx; right: 35rpx; text-align: right; color:#f16262;
+  font-family: "黑体"；
+}
+.contBarText{
+   font-size: 50rpx; line-height: 80rpx;
+}
+.conBarIcon{
+    font-size: 35rpx;
+}
+.foots{
+  width: 100%; text-align: center;  background: #fff;
+}
+.footT{
+   color:#c6c6c6; font-size:30rpx; text-align: center; width: 100%; display: inline-block; height: 63rpx;
+   line-height: 63rpx;
+}
+.footM{
+   line-height: 90rpx;
+}
+.conHead_top{
+   width: 100%; height: 100rpx; background: #fff6ed; position: relative;
+}
+
+.conIMG{
+    width:60rpx; height: 60rpx;  border-radius: 50%; margin-top: 20rpx; margin-left: 35rpx; float: left; overflow: hidden;
+}
+.conIMG button::after{
+  border: none;
+}
+.conIMG image{
+   width: 100%; height: 100%; border: none;
+}
+.conget{
+   width: 180rpx; height: 60rpx; background: #ff8915; display: inline-block; position: absolute; right: 35rpx; top:20rpx;
+   border-radius: 30rpx;line-height: 60rpx; font-size: 30rpx; color:#fff;border: none; overflow: hidden;
+}
+.btns{
+   position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000; height: 90rpx; background: #ff4747;
+   color:#fff; text-align: center; line-height: 90rpx; font-size:36rpx;
+}
+.btnsL{
+  width: 40%; height: 100%; background: #fff; color:#ff8787; float: left; font-size:28rpx;
+}
+.btnsR{
+  width: 60%; height: 100%; background: #ff4747; color:#fff;float: left; font-size:28rpx; position: relative;
+}
+.conTT{
+   float: left; line-height: 100rpx; color:#ff8915; font-size:30rpx; padding-left: 20rpx;
+}
+.backTSD{
+  float: right; font-size:30rpx; line-height: 70rpx; padding-right:35rpx; color:#ff8787;
+}
+.backMss{
+  font-size: 30rpx; text-align: center; float: right; padding-right: 70rpx; line-height: 70rpx; height: 75rpx;
+}
+.fenx{
+  width: 36rpx; height: 36rpx; position: absolute; top:30rpx;left: 40rpx;
+}
+.fenTs{
+  padding-left: 50rpx;
+}
+.conTTs{
+  height: 60rpx; margin: 20rpx 20rpx;   display: inline-block; font-size:24rpx;
+  color:#666666;
+}
+.conTTs text{
+   display: block;
+}
+.shengyu{
+   width: 180rpx; height: 30rpx;  float: right; margin: 30rpx 0; font-size: 24rpx; line-height: 35rpx; text-align: right;
+   padding-right: 35rpx; color: #666;
+}
+.shenVIP{
+  width: 55rpx; height: 30rpx;  border-radius: 5rpx; float: left; overflow: hidden;
+}
+.shenVIP image{
+  width: 100%; height: 100%;
+}

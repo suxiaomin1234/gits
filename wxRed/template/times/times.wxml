@@ -1,0 +1,35 @@
+<template name="msgItem">
+  <view class="container log-list">
+    <view class="times">
+        <view class="backs">
+            <view class="backsTop">
+              <text class="backText">今日牛股</text>
+              <text class='backTSD'>{{stock_msg}}</text>
+            </view>
+            <view class="backsDow">
+                <view class='backsDowUp'>
+                  <!-- <view class='backsLeft' wx:if="{{showTitle == true}}">{{title}}</view> -->
+                  <view wx:if="{{showTitle == true}}" style="float:left">
+                    <view class='backsLeft2'>{{sname}}</view>
+                    <view class='backsLeft3'>{{ssymbol}}</view>
+                  </view>
+                  <view wx:if="{{showTitle == false}}" style="float:left">
+                    <view class='backsLeft2'>{{sname}}</view>
+                    <view class='backsLeft3'>{{ssymbol}}</view>
+                  </view>
+                  <view class='backTime'>
+                      <view class='backsT'>{{hours}}</view><view class="backsY">:</view>
+                      <view class='backsM'>{{minutes}}</view><view class="backsY">:</view>
+                      <view class='backsS'>{{seconds}}</view>
+                  </view>
+                  <view class='backMss'>牛股倒计时</view>
+                </view>
+                <view class='backsDowOf'>
+                    <view class='backsT0'>推荐理由：</view>
+                    <view class='backTexts'>{{reason}}4444444444444444444444444444444444444444</view>
+                </view>
+            </view>
+        </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,21 @@
+<!--pages/suree/suree.wxml-->
+<view class="container">
+    <view class='suress'>
+        <image class='suressIMG' src="../../image/surees.png"></image>
+        <text class='suressT1'>注册成功</text>
+        <text class='suressT1 sures_font'>恭喜您，获得每日一股VIP特权</text>
+        <view class='suress_btn' bindtap='goHome'>返回首页14:00查看牛股</view>
+    </view>
+    <view class='contMont'>
+       <view class='contDow'>
+           <image class='contDimg' src="../../image/downImg.png"></image>
+       </view>
+    </view>
+    <!-- 活动规则 -->
+    <view class='guiz mages'>
+       <view class='guizT'>活动规则</view>
+       <view class='guizText'>1：通过小程序完成注册的用户可享受3天VIP特权。</view>
+       <view class='guizText'>2：VIP到期后，通过分享好友或者分享到朋友圈，可再次获得3天VIP特权。</view>
+    </view>
+    <view class='btns' bindtap='goFen'>转发分享赢取3天VIP特权</view>
+</view>

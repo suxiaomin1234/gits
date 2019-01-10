@@ -1,0 +1,67 @@
+.container{
+  width: 100%; margin: 0 auto;
+  /* background: #f00; */
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section{
+  width: 100%; height: 159rpx;
+}
+.section1{
+   width: 100%; height: 324rpx;
+}
+.times{
+  height: 310rpx; width: 100%; margin-bottom: 30rpx;
+}
+.backs{
+  width: 95%; height: 300rpx; border-radius: 20rpx; margin: 0 auto; box-shadow: 1px 4px 6px #d0d0d0;
+  -webkit-box-shadow: 1px 4px 6px #d0d0d0; -moz-box-shadow: 1px 4px 6px #d0d0d0;
+  -ms-box-shadow: 1px 4px 6px #d0d0d0;
+  background: #fff6ed; overflow: hidden;
+}
+.backsTop{
+   height: 70rpx;  
+}
+.backText{
+   font-size:15px; width: 150rpx;height: 40rpx; background: #ff4747; color:#fff; margin: 16rpx 0 0 25rpx; display: inline-block;
+   text-align: center; border-radius: 10rpx; line-height: 40rpx; 
+}
+.backsDow{
+   height:230rpx; background: #ff4747; color:#fff;
+}
+.backsDowUp{
+   height: 155rpx; border-bottom: 1px solid #fff;
+}
+.backsLeft{
+   padding: 0 3.5%;  font-size: 21px;   line-height: 155rpx; display: inline-block;
+}
+.backsLeft2{
+   padding: 0 3.5%;  font-size: 21px; width: 350rpx; float: left; line-height: 85rpx;
+}
+.backTime{
+    width: 230; height: 50rpx;  display: inline-table;  margin:50rpx 35rpx;color: #ff4747; text-align: center;
+   line-height: 50rpx; float: right;
+}
+.backsT{
+   width: 63rpx; height: 50rpx; background: #ffffff; border-radius: 10rpx; float: left;
+}
+.backsM{
+   width: 63rpx; height: 50rpx; background: #ffffff; border-radius: 10rpx; float: left;
+}
+.backsS{
+   width: 63rpx; height: 50rpx; background: #ffffff; border-radius: 10rpx; float: left;
+}
+.backsY{
+   float: left; line-height: 45rpx; margin: 0 6rpx;color: #fff;
+}
+.backsDowOf{
+   width: 100%; height: 100rpx; background: rgb(161, 226, 10);
+}
+.backsT0{
+  font-size:12px; margin: 20rpx 0 0 35rpx; display: inline-block;
+}
+.backsBtn{
+  height: 48rpx; background: #fff; float: right; margin: 15rpx 35rpx 0 0; border-radius: 10rpx; padding: 0 20rpx;
+  color:#ff4747; font-size: 16px; line-height: 48rpx; text-align: center; box-shadow: 0px 1px 3px #b72424;
+  -webkit-box-shadow: 0px 4px 6px #b72424; -moz-box-shadow: 0px 4px 6px #b72424; -ms-box-shadow: 0px 4px 6px #b72424;
+}

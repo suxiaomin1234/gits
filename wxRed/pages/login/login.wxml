@@ -1,0 +1,72 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+    <view class='loginHead'>
+        <image class='loginsImg' src="../../image/logins.png"></image>
+        <view class="logins_input_1">
+            <input adjust-position="true" class='logins_input_text' placeholder-style="color:#cba1f2" type="digit" placeholder="请输入你的号码"  maxlength="11" bindinput="bindInput" data-inputNum='0' value="{{phone}}" />
+        </view>  
+        <view class="logins_input_2">
+                <input adjust-position="true" class='logins_input_text' placeholder-style="color:#cba1f2" type="number" placeholder="请输入验证码"  maxlength="6" bindinput="bindInput" data-inputNum='1' value="{{code}}"/>
+        </view>
+          <!-- 获取验证码 -->
+        <view class='getCode' bindtap="codeBtn">{{codeget}}</view>
+        <view class='logins_tbn' bindtap="goToBtn">
+                  注册免费领
+        </view>
+    </view>
+    
+    <view class='contMont'>
+       <view class='contHead'>
+           <!-- <text>所有股票均由鲸鱼研究院胜率85%以上专家推荐</text> -->
+       </view>
+       <view class='contDow'>
+           <image class='contDimg' src="../../image/downImg.png"></image>
+       </view>
+    </view>
+    <!-- 活动规则 -->
+    <view class='guiz'>
+       <view class='guizT'>活动规则</view>
+       <view class='guizText'>1：通过小程序完成注册的用户可享受3天VIP特权。</view>
+       <view class='guizText'>2：VIP到期后，通过分享好友或者分享到朋友圈，可再次获得3天VIP特权。</view>
+    </view>
+    <view class='btns' bindtap='goFen' wx:if="{{showFen}}">转发分享赢取3天VIP特权</view>
+    <!-- <view  bindtap='onshow'>获取用户信息</view>
+    <canvas style="width: 400px; height: 500px;" canvas-id="myCanvas"></canvas> -->
+    <!-- 遮罩注册 -->
+    <!-- <view class='shade'  catchtouchmove="preventD" wx:if="{{shows}}" >
+          <view class="modal-view">
+              <image class='modal_img' src="../../image/login.png"></image>
+              <view class='modal_dels' bindtap="delInput"  data-num="0">
+                  <icon type="clear" size="30" color="#fff"/>
+              </view>
+              <text class='modal_text'>每日一股VIP免费领取</text>
+              <view class="modal_input_1">
+                <input adjust-position="true" class='modal_input_text' placeholder-style="color:#fff" type="digit" placeholder="请输入你的号码"  maxlength="12" bindinput="bindInput" data-inputNum='0' value="{{phone}}" />
+                <view class='cancles' bindtap="delInput" data-num="1" >
+                    <icon type="cancel" size="20" color="#fff"  />
+                </view>
+              </view>
+              <view class="modal_input_2">
+                <input adjust-position="true" class='modal_input_text' placeholder-style="color:#fff" type="text" placeholder="请输入图形验证"  maxlength="6" bindinput="bindInput" data-inputNum='1' value="{{imgcode}}"/>
+                <view class='cancles' bindtap="delInput" data-num="2" >
+                    <icon type="cancel" size="20" color="#fff"  />
+                </view>
+              </view>
+              <view class="modal_input_3">
+                <input adjust-position="true" class='modal_input_text' placeholder-style="color:#fff" type="number" placeholder="请输入验证码"  maxlength="6" bindinput="bindInput" data-inputNum='2' value="{{code}}"/>
+                <view class='cancles' bindtap="delInput" data-num="3" >
+                    <icon type="cancel" size="20" color="#fff"  />
+                </view>
+              </view> -->
+              <!-- 获取验证码 -->
+              <!-- <view class='yanz' bindtap="codeBtn">获取验证码</view> -->
+              <!-- contB-->
+              <!-- <view class='madal_tbn' bindtap="goToBtn">
+                  立即获取
+              </view> -->
+              <!-- <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button> -->
+              <!-- <button open-type="share" lang="zh_CN" bindtap='setDisabled'>获取用户信息</button>
+          </view>    -->
+    <!-- </view> -->
+</view>
+

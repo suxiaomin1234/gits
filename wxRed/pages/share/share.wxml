@@ -1,0 +1,24 @@
+<!--pages/share/share.wxml-->
+<view class='contFen '>
+  <view class='topIMG'>
+     <image class='fenIMG' src="../../image/topImg.png"></image>
+  </view>
+  <view class='contIMG'>
+      <image class='fenIMG' src="../../image/fenBack.png"></image>
+      <image class='codeIMG' bind:longpress='showcodes' src="{{img}}"></image>
+      <text style="font-szie:20rpx; text-align: center; width: 100%;color:#ccc;  height: 80rpx; line-height: 80rpx; position: absolute; top:1040rpx;left: 50%;-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%); -ms-transform: translateX(-50%);">长按扫码 获取牛股</text>
+  </view>
+  <view class='share'>
+      <view class='shareBtn'>
+        <image class='fenIMG' src="../../image/fenBtn.png"></image>
+        <button class='fenTxts' open-type="share">转发分享</button>
+      </view>
+      <view class='shareBtn2'>
+          <image class='fenIMG' src="../../image/fenBtn.png"></image>
+          <button class='fenTxts' bindtap='fenSave' open-type="{{seting}}">保存海报分享</button> 
+      </view>
+  </view>
+  <view style='position:fixed;top:999999999999999999999rpx;'>
+     <canvas style="width:{{wWidth}}px; height:{{wHeight}}px; "   canvas-id='myCanvas' ></canvas>
+  </view>
+</view>
